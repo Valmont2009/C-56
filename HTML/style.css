@@ -1,0 +1,42 @@
+h1{color: red;}
+*{border: solid;}
+
+header{
+    background-color: orange;
+    display: flex;
+    justify-content: flex-end;
+}
+
+gatito{
+    background-color: chocolate;
+}
+
+musica{
+    background-color: black;
+}
+
+anime{
+    background-color: aquamarine;
+}
+
+grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.fl p{
+    opacity: 0;
+}
+
+.fl:hover p{
+    opacity: 1;
+}
+
+.fl:haver img{
+    opacity: 0.33;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+}
